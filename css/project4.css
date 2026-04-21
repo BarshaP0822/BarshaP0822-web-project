@@ -1,0 +1,74 @@
+body {
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+
+}
+nav{
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+h1 {
+    color: darkblue;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: darkgreen;
+    font-size: 28px;
+    margin-top: 25px;
+}
+h3 {
+    color: purple;
+    font-size: 22px;
+    margin-top: 20px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+}
+ul {
+    margin-left: 20px;
+    padding: 10px;
+}
+li {
+    margin-bottom: 8px;
+    color: navy;
+}
+img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid darkred;
+    padding: 5px;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    section {
+        margin: 10px;
+        padding: 15px;
+
+    }
+    #messageBox {
+        margin-top: 15px;
+        padding: 10px;
+        font-weight: bold;
+        color: darkgreen;
+        background-color: white;
+        border: 1px solid darkseagreen;
+        width: fit-content;
+    }
+}
