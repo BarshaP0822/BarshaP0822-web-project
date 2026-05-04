@@ -45,6 +45,7 @@ ul {
 li {
     margin-bottom: 8px;
     color: black;
+    font-size: 18px;
 }
 img {
     margin-top: 15px;
@@ -70,5 +71,6 @@ img {
         background-color: white;
         border: 1px solid darkseagreen;
         width: fit-content;
+        font-size: 18px;
     }
 }
