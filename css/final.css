@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:#d8c3a5;
+    color: black;
+}
+
+header {
+    background-color: olive;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 25px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #208ea9;
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.card,
+.product-card,
+.resource-card {
+    background-color: #e8f3e8;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: olive;
+    color: white;
+}
+    
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #17472e;
+}
+
+@media screen and (max-width: 700px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
